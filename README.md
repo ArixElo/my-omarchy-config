@@ -15,3 +15,4 @@ Hello, here's my Omarchy distro config that I use on my machines with it. The pu
 - README will be updated with even more **__info__**, if I get any new idea for things that will make my Omarchy experience even better.
 - P.S: Feel free to fork, edit or whatever do want to do, however in your's fork README, __i'm kindly asking to include me as the original author.__
 If you encounter any problems, hit me up on: [Telegram](t.me/ArixElo), **Discord**: `arixelo`
+![result of my config](img/result.png)
