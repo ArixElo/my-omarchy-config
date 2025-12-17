@@ -4,7 +4,7 @@
   "position": "top",
   "spacing": 0,
   "height": 26,
-  "modules-left": ["custom/omarchy", "hyprland/workspaces"],
+  "modules-left": ["custom/omarchy", "hyprland/workspaces", "temperature"],
   "modules-center": [ "hyprland/window","custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "clock",
@@ -13,7 +13,6 @@
     "bluetooth",
     "network",
     "pulseaudio",
-    "cpu",
     "battery"
   ],
   "hyprland/workspaces": {
@@ -41,6 +40,13 @@
       "5": []
     }
   },
+   "temperature": {
+    "thermal-zone": 1,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 95,
+    "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
+},
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
@@ -54,11 +60,6 @@
     "tooltip-format": "Omarchy update available",
     "signal": 7,
     "interval": 21600
-  },
-  "cpu": {
-    "interval": 5,
-    "format": "󰍛",
-    "on-click": "omarchy-launch-or-focus-tui btop"
   },
    "hyprland/window": {
     "icon": true,

@@ -29,7 +29,10 @@
 #workspaces button.empty {
   opacity: 0.5;
 }
-
+#temperature {
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+}
 #battery {
   min-width: 15px;
   margin-right: 7.5px;
@@ -85,7 +88,10 @@ tooltip {
     padding-right: 20px;
 }
 
-#custom-weather{
+#cava {
+  margin-right: 8.5px;
+}
+#custom-weather {
   margin-right: 8.5px;
 }
 
