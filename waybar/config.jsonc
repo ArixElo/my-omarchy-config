@@ -8,6 +8,7 @@
   "modules-center": [ "hyprland/window","custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "clock",
+    "custom/weather",
     "group/tray-expander",
     "bluetooth",
     "network",
@@ -54,7 +55,6 @@
     "signal": 7,
     "interval": 21600
   },
-
   "cpu": {
     "interval": 5,
     "format": "󰍛",
@@ -64,6 +64,13 @@
     "icon": true,
     "icon-size": 24,
     "separate-outputs": true
+  },
+  "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar --date-format "%m/%d" --location yourlocation --lang pl --hide-conditions --nerd",
+    "return-type": "json"
   },
   "clock": {
     "format": "{:L%A, %B %d, %Y (%R:%S)}",
