@@ -70,6 +70,10 @@ tooltip {
     padding-right: 20px;
 }
 
+#custom-weather{
+  margin-right: 16px;
+}
+
 #clock {
   margin-right: 16px;
 }

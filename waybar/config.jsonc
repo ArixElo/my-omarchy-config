@@ -66,10 +66,10 @@
     "separate-outputs": true
   },
   "custom/weather": {
-    "format": "{}°",
+    "format": "{}°C",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar --date-format "%m/%d" --location yourlocation --lang pl --hide-conditions --nerd",
+    "exec": "wttrbar --location Koszalin --lang pl --hide-conditions --nerd",
     "return-type": "json"
   },
   "clock": {
