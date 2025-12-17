@@ -16,7 +16,7 @@
 }
 
 .modules-right {
-  margin-right: 16px;
+  margin-right: 8.5px;
 }
 
 #workspaces button {
@@ -30,30 +30,45 @@
   opacity: 0.5;
 }
 
-#cpu,
-#battery,
-#pulseaudio,
-#custom-omarchy,
-#custom-screenrecording-indicator,
+#battery {
+  min-width: 15px;
+  margin-right: 7.5px;
+}
+#pulseaudio {
+  min-width: 15px;
+  margin-right: 7.5px;
+}
+#custom-omarchy {
+  min-width: 12px;
+  margin-right: 7.5px;
+}
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-right: 7.5px;
+}
 #custom-update {
   min-width: 12px;
-  margin: 0 7.5px;
+  margin-right: 7.5px;
 }
 
 #tray {
-  margin-right: 16px;
+  min-width: 12px;
+  margin-right: 7.5px;
 }
 
 #bluetooth {
-  margin-right: 17px;
+  min-width: 1px;
+  margin-right: 7.5px;
 }
 
 #network {
-  margin-right: 13px;
+  min-width: 15px;
+  margin-right: 7.5px;
 }
 
 #custom-expand-icon {
-  margin-right: 18px;
+  min-width: 12px;
+  margin-right: 7.5px;
 }
 
 tooltip {
@@ -71,11 +86,11 @@ tooltip {
 }
 
 #custom-weather{
-  margin-right: 16px;
+  margin-right: 8.5px;
 }
 
 #clock {
-  margin-right: 16px;
+  margin-right: 8.5px;
 }
 
 .hidden {
