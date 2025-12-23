@@ -4,6 +4,8 @@
   "BACKGROUND_COLOR": "#000000",
   "enableHardwareAcceleration": true,
   "chromiumSwitches": {},
-  "IS_MAXIMIZED": false,
-  "IS_MINIMIZED": true
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "asyncVideoInputDeviceInit": false,
+  "OPEN_ON_STARTUP": false
 }
