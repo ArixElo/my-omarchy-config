@@ -1,4 +1,4 @@
-# ArixElo's Omarchy config
+`# ArixElo's Omarchy config
 Hello, here's my Omarchy distro config that I use on my machines with it. The purpose of that repo is not to only share my settings, it's also for making my life easier. 
 
 ## Usage guide:
@@ -10,7 +10,18 @@ Hello, here's my Omarchy distro config that I use on my machines with it. The pu
  It can be changed from `Omarchy Menu > Install > Terminal`
 - And other apps that I think could be added to this repo.
 
-### Additional info:
+## Binds:
+My binds are a little bit different than what Omarchy gives you by default, because the default bindings aren't comfortable for me, so here's all binds that i changed or added;
+- `SUPER+C` ~ Opens VSCode,
+- `SUPER+B` ~ Opens default browser (by default it also uses the shift kay, but i've removed the shift kay from all my bindings to make my life easier),
+- `SUPER+D` ~ Opens Discord,
+- `SUPER+T` ~ Opens Telegram,
+- `SUPER+M` ~ Opens File Manager,
+- `SUPER+SHIFT+F` ~ Goes to fullscreen mode (that's only one shift bind which I sometimes use),
+- `SUPER+M` ~ Opens Pear Desktop (YouTube Music client),
+- `SUPER+Q` ~ Quit apps (by default is `SUPER+W`, however i do find that not comfortable for me, hence that's why that bind is changed as well).
+
+## Additional info:
 - As of the `tiling-v2.conf` file, you need to copy it into `~/.local/share/omarchy/default/hypr/bindings` i know that you shouldn't edit those, however i'm not gonna move out things that i changed before.
 - README will be updated with even more **__info__**, if I get any new idea for things that will make my Omarchy experience even better.
 - P.S: Feel free to fork, edit or whatever do want to do, however in your's fork README, __i'm kindly asking to include me as the original author.__
