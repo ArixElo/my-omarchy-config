@@ -1,5 +1,5 @@
-`# ArixElo's Omarchy config
-Hello, here's my Omarchy distro config that I use on my machines with it. The purpose of that repo is not to only share my settings, it's also for making my life easier. 
+# ArixElo's Omarchy config
+**Hello, here's my Omarchy distro config that I use on my machines with it. The purpose of that repo is not to only share my settings, it's also for making my life easier.** 
 
 ## Usage guide:
 - So, here's what packages you need in order to apply everything without any issues:
