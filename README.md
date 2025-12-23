@@ -2,7 +2,8 @@
 **Hello, here's my Omarchy distro config that I use on my machines with it. The purpose of that repo is not to only share my settings, it's also for making my life easier.** 
 
 ## Usage guide:
-- So, here's what packages you need in order to apply everything without any issues:
+- Use dedicated script for automatic install packages and applying config: `./install-config.sh`
+- Or, if you don't like scripts somehow, then here's what packages you need in order to apply everything without any issues:
 - `waybar` ~ which is included by default, if you want to use other language for clock than Polish, then change the pl_PL-UTF.8 value in waybar's config for clock to other language, assuming you already generated locale for your language,
 - `cava`  ~ for my theme,
 - `wttrbar` ~ for weather in waybar, available on **AUR**,
