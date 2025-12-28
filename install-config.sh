@@ -21,14 +21,15 @@ EOF
         __copy
     else
         echo "Installing required packages..."
-        sudo omarchy-install-terminal kitty && yay -S cava wttrbar
+        yay -S cava wttrbar kitty
         __copy
     fi
 }
 
 function __copy() {
-    echo "Copying all configs to ~/.config..."
+    echo "Copying all configs to ~/.config and changing your terminal..."
     cp -r */ ~/.config/
+    cat "kitty.desktop" > ~/.config/xdg-terminals.list
     echo "Restarting waybar..."
     pkill waybar && hyprctl dispatch exec waybar
     echo "Applying config is done, but for better experience: Change your location for wttrbar, and reboot your machine."
