@@ -16,7 +16,7 @@ Omarchy by default comes with English (US) locales.
 ## Binds:
 My binds are a little bit different than what Omarchy gives you by default, because the default bindings aren't comfortable for me, so here's all binds that i changed or added;
 - `SUPER+C` ~ Opens VSCode,
-- `SUPER+B` ~ Opens default browser (by default it also uses the shift kay, but i've removed the shift kay from all my bindings to make my life easier),
+- `SUPER+B` ~ Opens default browser (by default it also uses the shift kay, but i've removed the shift key from all my bindings to make my life easier),
 - `SUPER+D` ~ Opens Discord,
 - `SUPER+T` ~ Opens Telegram,
 - `SUPER+M` ~ Opens File Manager,
