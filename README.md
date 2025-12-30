@@ -21,7 +21,7 @@ My binds are a little bit different than what Omarchy gives you by default, beca
 - `SUPER+T` ~ Opens Telegram,
 - `SUPER+M` ~ Opens File Manager,
 - `SUPER+SHIFT+F` ~ Goes to fullscreen mode (that's only one shift bind which I sometimes use),
-- `SUPER+M` ~ Opens Pear Desktop (YouTube Music client),
+- `SUPER+M` ~ Opens Pear Desktop (YouTube Music client, however you can change it to your preferred music player),
 - `SUPER+Q` ~ Quit apps (by default is `SUPER+W`, however i do find that not comfortable for me, hence that's why that bind is changed as well).
 
 ## Additional info:
