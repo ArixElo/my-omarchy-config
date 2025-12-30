@@ -27,8 +27,9 @@ EOF
 }
 
 function __copy() {
-    echo "Copying all configs to ~/.config and changing your terminal..."
+    echo "Copying all configs to ~/.config and ~/.local also changing your terminal..."
     cp -r */ ~/.config/
+    cp tiling-v2.conf ~/.local/share/omarchy/default/hypr/bindings
     cat "kitty.desktop" > ~/.config/xdg-terminals.list
     echo "Restarting waybar..."
     pkill waybar && hyprctl dispatch exec waybar
