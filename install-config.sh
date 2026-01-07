@@ -33,6 +33,7 @@ function __copy() {
     cat "kitty.desktop" > ~/.config/xdg-terminals.list
     chsh $USER /usr/bin/zsh && sudo chsh /usr/bin/zsh
     cp .zshrc ~/home/$USER/
+    touch .config/zsh/history
     source ~/.zshrc
     echo "Restarting waybar..."
     pkill waybar && hyprctl dispatch exec waybar
