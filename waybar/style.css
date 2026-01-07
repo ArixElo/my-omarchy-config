@@ -53,7 +53,28 @@
   min-width: 12px;
   margin-right: 7.5px;
 }
+#custom-media {
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+}
 
+#custom-media.playing {
+    color: #ffffff;
+}
+
+#custom-media.paused {
+    color: #666666;
+}
+
+#custom-media.stopped {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#custom-media:hover {
+    background-color: #1a1a1a;
+}
 #tray {
   min-width: 12px;
   margin-right: 7.5px;
@@ -91,7 +112,6 @@ tooltip {
 #custom-weather {
   margin-right: 8.5px;
 }
-
 #clock {
   margin-right: 8.5px;
 }

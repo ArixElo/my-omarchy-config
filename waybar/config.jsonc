@@ -4,7 +4,7 @@
   "position": "top",
   "spacing": 0,
   "height": 26,
-  "modules-left": ["custom/omarchy", "hyprland/workspaces", "temperature","backlight"],
+  "modules-left": ["custom/omarchy", "hyprland/workspaces", "temperature","backlight","custom/media"],
   "modules-center": [ "hyprland/window","custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "clock",
@@ -77,6 +77,22 @@
     "interval": 3600,
     "exec": "wttrbar --location Koszalin --lang pl --hide-conditions --nerd",
     "return-type": "json"
+  },
+  "custom/media": {
+    "format": "{icon} {text}",
+    "return-type": "json",
+    "max-length": 40,
+    "format-icons": {
+      "spotify": "",
+      "default": "🎜"
+    },
+    "escape": true,
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null",
+    "interval": 1,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next"
   },
   "clock": {
     "format": "{:L%A, %B %d, %Y (%R:%S)}",
