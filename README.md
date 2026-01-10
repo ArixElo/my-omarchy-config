@@ -23,6 +23,7 @@ My binds are a little bit different than what Omarchy gives you by default, beca
 - `SUPER+D` ~ Opens Discord,
 - `SUPER+T` ~ Opens Telegram,
 - `SUPER+M` ~ Opens File Manager,
+- `SUPER+SHIFT+T` ~ toggle floating or tiling mode (default bind is `SUPER+T`, however as you see that is already reserved by Telegram bind)
 - `SUPER+SHIFT+F` ~ Goes to fullscreen mode (that's only one shift bind which I sometimes use),
 - `SUPER+L` ~ Quick account lock (enter password or use your finger to unlock your desktop)
 - `SUPER+M` ~ Opens Pear Desktop (YouTube Music client, however you can change it to your preferred music player),
