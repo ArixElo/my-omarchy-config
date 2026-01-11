@@ -16,12 +16,12 @@ EOF
 
     echo "Checking if you have installed required packages..."
     
-    if yay -Qi cava &>/dev/null && yay -Qi kitty &>/dev/null && yay -Qi wttrbar &>/dev/null && yay -Qi starship &>/dev/null && yay -Qi zsh &>/dev/null && yay -Qi zsh-autosuggestions &>/dev/null && yay -Qi zsh-syntax-highlighting &>/dev/null; then
+    if yay -Qi cava &>/dev/null && yay -Qi kitty &>/dev/null && yay -Qi wttrbar &>/dev/null && yay -Qi starship &>/dev/null && yay -Qi zsh &>/dev/null && yay -Qi zsh-autosuggestions &>/dev/null && yay -Qi zsh-syntax-highlighting &>/dev/null && yay -Qi conky &>/dev/null; then
         echo "It looks like you have already installed all packages"
         __copy
     else
         echo "Installing required packages..."
-        yay -S cava wttrbar kitty starship zsh zsh-autosuggestions zsh-syntax-highlighting
+        yay -S cava conky wttrbar kitty starship zsh zsh-autosuggestions zsh-syntax-highlighting
         __copy
     fi
 }
@@ -33,7 +33,8 @@ function __copy() {
     cat "kitty.desktop" > ~/.config/xdg-terminals.list
     chsh $USER /usr/bin/zsh && sudo chsh /usr/bin/zsh
     cp .zshrc ~/home/$USER/
-    touch .config/zsh/history
+    mkdir -p ~/.config/zsh/
+    touch ~/.config/zsh/history
     source ~/.zshrc
     echo "Restarting waybar..."
     pkill waybar && hyprctl dispatch exec waybar

@@ -8,6 +8,7 @@ Omarchy by default comes with English (US) locales.
 - Or, if you don't like scripts somehow, then here's what packages you need in order to apply everything without any issues:
 - `waybar` ~ which is included by default, if you want to use other language for clock than Polish, then change the pl_PL-UTF.8 value in waybar's config for clock to other language, assuming you already generated locale for your language,
 - `cava`  ~ for my theme,
+- `conky` ~ for the widgets,
 - `wttrbar` ~ for weather in waybar, available on **AUR**,
 - `zsh` ~ my favourite shell, with syntax higlighting and autocompletion,
 - `starship` ~ for the looks in zsh,
