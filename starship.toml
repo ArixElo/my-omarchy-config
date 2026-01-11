@@ -1,6 +1,5 @@
-format = """
-[┌───────────────────────────────────────────────────────────>](bold white)
-[│](bold white)$username$hostname$directory$git_branch$git_status$aws
+format = """ (bold white)
+(bold white)$username$hostname$directory$git_branch$git_status$aws
 [└─>](bold white) """
 
 [character]
