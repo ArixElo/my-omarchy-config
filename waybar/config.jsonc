@@ -13,7 +13,8 @@
     "bluetooth",
     "network",
     "pulseaudio",
-    "battery"
+    "battery",
+    "battery#bat2"
   ],
   "hyprland/workspaces": {
     "on-click": "activate",
@@ -87,7 +88,7 @@
       "default": "🎜"
     },
     "escape": true,
-    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 1> /dev/null",
     "interval": 1,
     "on-click": "playerctl play-pause",
     "on-click-right": "playerctl next",
@@ -128,6 +129,27 @@
     "format-full": "󰂅",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
     "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    "bat": "BAT0",
+    "interval": 5,
+    "on-click": "omarchy-menu power",
+    "states": {
+      "warning": 20,
+      "critical": 10
+    }
+  },
+    "battery#bat2": {
+    "format": "{capacity}% {icon}",
+    "format-discharging": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon}",
+    "format-plugged": "",
+    "format-icons": {
+      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+    "format-full": "󰂅",
+    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
+    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    "bat": "BAT1",
     "interval": 5,
     "on-click": "omarchy-menu power",
     "states": {

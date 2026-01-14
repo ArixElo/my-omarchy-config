@@ -37,6 +37,10 @@
   min-width: 15px;
   margin-right: 7.5px;
 }
+#battery.bat2 {
+  min-width: 15px;
+  margin-right: 7.5px;
+}
 #pulseaudio {
   min-width: 15px;
   margin-right: 7.5px;
