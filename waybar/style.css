@@ -72,13 +72,12 @@
     color: #666666;
 }
 
-/*
 #custom-media.stopped {
     opacity: 0;
     padding: 0;
     margin: 0;
 }
-*/
+
 
 #custom-media:hover {
     background-color: #1a1a1a;
