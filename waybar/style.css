@@ -60,21 +60,25 @@
 #custom-media {
     margin-left: 8.5px;
     margin-right: 8.5px;
+    min-width: 150px;
 }
 
 #custom-media.playing {
     color: #ffffff;
+    opacity: 1;
 }
 
 #custom-media.paused {
     color: #666666;
 }
 
+/*
 #custom-media.stopped {
     opacity: 0;
     padding: 0;
     margin: 0;
 }
+*/
 
 #custom-media:hover {
     background-color: #1a1a1a;

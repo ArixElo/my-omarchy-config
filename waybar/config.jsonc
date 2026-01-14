@@ -9,7 +9,6 @@
   "modules-right": [
     "clock",
     "custom/weather",
-    "group/tray-expander",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -83,13 +82,13 @@
   "custom/media": {
     "format": "{icon} {text}",
     "return-type": "json",
-    "max-length": 40,
+    "max-length": 25,
     "format-icons": {
       "spotify": "",
       "default": "🎜"
     },
     "escape": true,
-    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 1> /dev/null",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null",
     "interval": 1,
     "on-click": "playerctl play-pause",
     "on-click-right": "playerctl next",
