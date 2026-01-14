@@ -9,6 +9,7 @@
   "modules-right": [
     "clock",
     "custom/weather",
+    "group/tray-expander",
     "bluetooth",
     "network",
     "pulseaudio",
